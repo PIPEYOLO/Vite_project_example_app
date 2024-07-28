@@ -1,0 +1,55 @@
+
+
+
+// Aqui lo que hice es lo que hice, ver las carpetas, lo hice a mano viendo docs, esto solo sirve para developement porque no lo diseñe para build.
+
+
+
+// Hay un comando que hace todo por nosotros y nos arregla el problema anterior ya de antemano, nosotros solamente deberiamos poner el endpoint de vite enrutado a nuestro app y listo.
+
+
+
+---------------------------------------------------------------------------------------------------
+
+npm create-vite
+  - ...
+  - cuando nos pida que tipo de proyecto es (vanilla, react, vue, etc), nosotros tocamos other
+    - ssr-react
+      -Stremable 
+
+
+y creo que listo
+
+
+
+
+// ----- Recomendacion -.------------
+// Inicializar pproyecto usando el create-vite-extra
+
+
+
+//------------------ Integracion ssr backend -----------------
+// Mirar backend/outers/vite
+// Integrar el viteRouter al ultimo de todos los routers de la aplicacion sino no funciona
+
+
+
+// -------------------------------
+--------------------- Entry points del frontend ----------------------------
+
+// Un proyecto con ssr no tiene main.jsx, solo tiene los entry de client y server.jsx
+
+
+
+
+/-//////////----------
+--------------------- REDUX ----------------------------
+- Para inegrar redux hay que hacerlo sobre el client.jsx y el server.jsx y asi de tranqui.
+
+// Para tener multipage mirar el client.jsx y el server.jsx, poque ahi se hace uso del static router y el broweser router
+
+
+
+///-------------------
+
+
